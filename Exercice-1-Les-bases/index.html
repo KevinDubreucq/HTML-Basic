@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Exercice 1: Les bases</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
@@ -12,9 +12,72 @@
     <h1>Les bases de l'html</h1>
         <h2>Les balises</h2>
             <h3>Les balises paires</h3>
+                <p>Les balises paires reprennent la <strong>grande majorité des balises</strong> en HTML, elles fonctionnent par deux, une qui ouvre et une qui ferme.
+                    Voici quelques exemples:
+                </p>
+                    <ul>
+                        <li><xmp>la balise <h1></h1> qui permet de mettre en forme les titres,</xmp></li>
+                        <li><xmp>la balise <p></p> qui permet de créer un paragraphe,</xmp></li>
+                        <li><xmp>la balise <head></head> qui définit la tête d'un document,</xmp></li>
+                        <li><xmp>la balise <title></title> qui définit le nom qu'aura l'onglet dans le navigateur,</xmp></li>
+                        <li><xmp>la balise <xmp></xmp> qui permet d'afficher du code html.</xmp></li>
+                    </ul>
             <h3>Les balises orphelines</h3>
+                <p>Contrairement aux balises paires, les balises orphelines sont seules et peuvent aussi être appelée <strong>auto-fermantes</strong>. Le terme parle alors mieux puisque la balise ouvre et se ferme toute seule. On ne peut rien mettre d'autres que les éventuels attributs dans ces balises.
+                    Voici quelques exemples:
+                </p>
+                    <ul>
+                            <li><xmp>la balise <img> qui permet d'insérer une image dans la page,</xmp></li>
+                            <li><xmp>la balise <br> permet surtout un retour à la ligne dans un paragraphe (à noter que celui ci est un cas particulier selon que l'on écrive en HTML5 ou en XHTML mais j'ai pas encore saisi la différence. <br> est valide en html5 mais doit s'écrire comme ça pour le xhtml : <br />.
+                                L'espace avant le / n'est pas optionnel.)</xmp></li>
+                            <li><xmp>la balise <link> qui permet de mettre un lien vers un fichier.</xmp></li>
+                        </ul>
+         <a title="Sources" href="https://openclassrooms.com/forum/sujet/balise-orpheline-aide">
+                            Source</a>
+
         <h2>Les attributs</h2>
+                <p>Les attributs apportent <strong>des précisions</strong> sur les balises, il peut s'agir d'un nom de fichier par exemple (source) ou d'une url.</p>
+                <a title="Sources" href="http://www.snv.jussieu.fr/archambault/cours/html/textes/bases.html">
+                    Source</a>
+
         <h2>La différence entre inline et block</h2>
+                <p>Les éléments inline ne prendront que <strong>l'espace indispensable</strong> à l'affichage du contenu, se mettant côte à côte dans la mesure du possible. Les éléments block par contre occupe <strong>toute la largeur disponible</strong> et sont donc l'un sous l'autre s'ils se suivent.
+                    Voici quelques exemples:
+                </p>
+
+                    <h3>Exemples de balises inline</h3>
+                <ul>
+                     <li>abbr => <abbr title="abbréviation">abbr</abbr></li>
+                     <li>span => <span style="color: #FE0123">span</span></li>
+                     <li>img => <img alt="Photo test img" src="https://searchengineland.com/figz/wp-content/seloads/2017/07/google-fail-1920-800x450.jpg"></li>
+                    </ul>
+
+                    <h3>Exemples de balises block</h3>
+                 <ol>
+                     <li>table => <table>
+                            <tr>
+                               <th>Prénom</th>
+                               <th>Nom</th>
+                               <th>Profession</th>
+                            </tr>
+                            <tr>
+                               <td>Mike</td>
+                               <td>Stuntman</td>
+                               <td>Cascadeur</td>
+                            </tr>
+                            <tr>
+                               <td>Mister</td>
+                               <td>Pink</td>
+                               <td>Gangster</td>
+                            </tr>
+                         </table></li>
+                     <li>pre => <pre>bloc de code préformaté prenant les    tab et les 
+                         retours à la ligne en compte.</pre></li>
+                     <li>p => <p>classique fonction pour un paragraphe</p></li>
+                 </ol>
+                 <a title="Sources" href="http://www.css-faciles.com/bloc-en-ligne.php">
+                    Source</a>
+
         <h2>Le markdown et l'HTML</h2>
 </body>
 </html>
