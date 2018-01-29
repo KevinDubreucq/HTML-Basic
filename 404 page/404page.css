@@ -1,0 +1,5 @@
+body {
+    background: brown url("/home/user/Documents/HTML-Basic/404 page/Trou-Noir.jpg") no-repeat;
+    background-position: top left;
+    background-size: cover;
+}
