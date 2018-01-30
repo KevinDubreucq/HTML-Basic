@@ -1,0 +1,30 @@
+body {
+    background: brown url("/home/user/Documents/HTML-Basic/404 page/Trou-Noir.jpg") no-repeat;
+    background-position: top left;
+    background-size: cover;
+}
+
+h1 {
+    position: relative;
+    left: 35%;
+    top: 400px;
+    text-shadow: 2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, -2px 0 0 white, 2px 2px 0 white, 2px -2px 0 white, -2px 2px 0 white, -2px -2px 0 white;
+}
+
+p {
+    position: relative;
+    left: 40%;
+    top: 400px;
+    text-shadow: 2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, -2px 0 0 white, 2px 2px 0 white, 2px -2px 0 white, -2px 2px 0 white, -2px -2px 0 white;
+
+}
+
+.bouton {
+    position: relative;
+    left: 50%;
+    top: 400px;
+    display: inline;
+}
+.bouton:hover {
+    box-shadow: 0 12px 16px 0 white, 0 17px 50px 0 white;
+}
